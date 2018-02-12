@@ -1,0 +1,127 @@
+body {
+  padding-top: 0;
+  background-color: #e3e3e3;
+  overflow-x: hidden;
+}
+
+.jb {
+  margin: 0;
+  background-color: white;
+  border-bottom: 3px solid #17a2b8
+}
+
+.nav-item:hover {
+
+  color: #17a2b8
+
+}
+
+.banner {
+
+    margin-top: 15px;
+}
+
+#categorias .card-body {
+
+  background-color: #17a2b8;
+
+}
+
+#categorias .row .col a {
+
+  color: white;
+  display: block;
+  padding: 0;
+  margin-top: 5px
+
+}
+
+#categorias .row .col a:hover {
+
+  text-decoration: none;
+  color: black
+
+}
+
+.news-list {
+
+  background-color: #e3e3e3;
+  padding: 10px;
+  padding-top: 0
+
+}
+
+.card-news {
+
+  background-color: white;
+  margin-top: 10px;
+
+  -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+}
+
+.img-news {
+
+  padding-left: 0
+
+}
+
+.pagination {
+
+  margin-top: 10px
+
+}
+
+#btnScrollTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #17a2b8;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#btnScrollTop:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+@media screen and (max-width: 480px) {
+
+  .card-news {
+
+    padding: 5px
+
+  }
+
+  .img-news img {
+
+    width: 100%
+
+  }
+
+  #btnScrollTop {
+
+    font-size: 13px;
+
+  }
+
+  .hidden {
+
+    display: none;
+
+  }
+
+}
